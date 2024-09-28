@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 129em; /* Aumenta el tamaño de la letra */
+    color: #091180; /* Cambia el color del texto (puedes usar un código hexadecimal o un nombre de color) */
+    margin: 20px 0; /* Ajusta los márgenes si es necesario */
+    text-align: center; /* Centra el texto */
+}
+
+h2 {
+    background: #4f59dd;
+    color: white;
+    padding: 10px;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.job {
+    background: #aba5e9;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.job h3, .job h4 {
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #4f59dd;
+    color: rgb(245, 245, 245);
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+a {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.header {
+    display: flex; /* Usamos Flexbox para alinear el contenido */
+    align-items: center; /* Centra verticalmente la imagen y el texto */
+    justify-content: center; /* Opcional: centra todo el contenido horizontalmente */
+}
+
+.header-text {
+    margin-left: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.profile-pic {
+    /* Ya tienes configuraciones para la imagen, así que solo asegúrate de que sean las deseadas */
+    width: 320px;
+    height: 120px;
+    border-radius: 70%;
+    /* Puedes eliminar el margin-bottom aquí si está fuera de lugar */
+}
